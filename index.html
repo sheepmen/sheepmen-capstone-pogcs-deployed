@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Scrolling Website Template</title>
+</head>
+<body>
+     <style>
+        body {
+            background-color: #f4c2c2;
+        }
+    </style>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <section id="home" class="container">
+        <h1>Welcome to My Website</h1>
+        <p><h3> Precious Enriquez</h3></p>
+        <div class="image-container">
+        <img src="me.jpg" alt="Image" class="round-image">
+    </div>
+    </section>
+
+    <section id="about" class="container">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <h2>About Me</h2>
+        <p>Things to know about me.</p>
+<div class="box">
+        <img src="Art1.jpg" alt="Image">
+        <p>I was born on July 20th, 2006 and I'm currently a Grade 11 student in People Of Grace Christian School. On a daily basis, I mostly just take care of my dog and play games. Aside from an interest in gaming, my interests also include drawing and above is one of my digital artworks. Although I'm more used to traiditonal art, I have started learning about digital art this year.</p>
+    </div>
+<div class="slideshow">
+        <img src="Art1.jpg" alt="Image 1" id="slide1">
+        <img src="Art2.jpg" alt="Image 2" id="slide2">
+        <img src="Art3.jpg" alt="Image 3" id="slide3">
+
+        <div class="slide-controls">
+            <a href="#slide1"></a>
+            <a href="#slide2"></a>
+            <a href="#slide3"></a>
+        </div>
+
+
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- You can add multiple images here -->
+            <img src="Teddy1.jpg" alt="Image 1">
+            <img src="Teddy2.jpg" alt="Image 2">
+            <img src="Teddy3.jpg" alt="Image 3">
+            <img src="Teddy4.jpg" alt="Image 3">
+            <p> This is my dog, Teddy <3 </p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <div class="box">
+        <p>Mobile number: 09356363198</p>
+        <p>Email Address: enriquezpreciousshs.pogcs@peopleofgracefellowship.org</p>
+        <p>School Address: #58 Kamuning Road, Quezon City, Philippines</p>
+    </div>
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <div class="container">
+        <h2>Follow-up Form</h2>
+        <form action="submit.php" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="questions">Questions/Concerns:</label>
+            <textarea id="questions" name="questions" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </section>
+</body>
+</html>
+

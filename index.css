@@ -1,0 +1,222 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f7cac9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f7cac9;
+        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 0;
+        }
+
+        section:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            object-fit: cover;
+        }
+.image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+        }
+
+        .round-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+       @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+        .box {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4c2c2;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+            font-family: 'Comic Neue', cursive;
+        }
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+        
+.box {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4c2c2;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+     .slideshow {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .slideshow img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .slideshow img:target {
+            opacity: 1;
+        }
+
+        .slideshow .slide-controls {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+        }
+
+        .slideshow .slide-controls a {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #555;
+            margin: 0 4px;
+        }
+
+        .slideshow .slide-controls a:target {
+            background-color: #000;
+        }
